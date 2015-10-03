@@ -1,4 +1,4 @@
-`pacman -Ss wmctrl > /dev/null`
+`pacman -Qs wmctrl > /dev/null`
 if [ $? -eq 0 ]
 then
 	COUNTER=0
